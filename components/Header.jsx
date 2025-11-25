@@ -21,7 +21,7 @@ export default function Header() {
       <a href="#projects" className="text-sm hover:underline">Projects</a>
       <a href="#experience" className="text-sm hover:underline">Experience</a>
       <a href="#contact" className="text-sm hover:underline">Contact</a>
-      <a href="/resume.pdf" download className="text-sm px-4 py-2 rounded-lg bg-white/90 shadow">Download CV</a>
+      <a href="/Mohamed_Nisfan_Resume.pdf" download className="text-sm px-4 py-2 rounded-lg bg-white/90 shadow">Download CV</a>
     </nav>
   </div>
 </header>

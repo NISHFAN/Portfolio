@@ -215,7 +215,7 @@ export default function Home() {
               </div>
               <div className="flex gap-3">
                 <button type="submit" className="px-4 py-2 bg-primary text-white rounded">Send</button>
-                <a href="/resume.pdf" download className="px-4 py-2 border rounded">Download Resume</a>
+                <a href="/Mohamed_Nisfan_Resume.pdf" download className="px-4 py-2 border rounded">Download Resume</a>
               </div>
             </form>
           </div>
