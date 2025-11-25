@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --primary: #013638;
+  --mint: #99f7AB;
+  --sky: #81DAE2;
+  --deep: #001A26;
+  --accent: #FF934F;
+}
+
+body{
+  background-color: white;
+}
+
+/* small helper */
+.btn-primary{ @apply px-4 py-2 rounded bg-primary text-white }
