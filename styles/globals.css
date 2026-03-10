@@ -2,17 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  --primary: #013638;
-  --mint: #99f7AB;
-  --sky: #81DAE2;
-  --deep: #001A26;
-  --accent: #FF934F;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-tech-bg text-tech-text antialiased selection:bg-tech-cyan selection:text-tech-bg;
+  }
 }
 
-body{
-  background-color: white;
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }
-
-/* small helper */
-.btn-primary{ @apply px-4 py-2 rounded bg-primary text-white }
