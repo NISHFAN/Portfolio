@@ -6,8 +6,8 @@ const projects = [
     title: 'Seratrix POS System',
     desc: 'A modern web-based Point of Sale (POS) system designed for restaurants and retail outlets. It provides order management, inventory tracking, and daily sales reporting with a clean and efficient interface.',
     tags: ['React.js', 'Node.js', 'Supabase'],
-    href: '#',
-    live: '#',
+    href: 'https://qaswa-pos.vercel.app',
+    live: 'https://qaswa-pos.vercel.app',
     isPrivate: true,
     year: '2025',
     colorFrom: 'from-tech-violet/40',
@@ -18,8 +18,8 @@ const projects = [
     title: 'PC Corner E-commerce Website',
     desc: 'A full-stack e-commerce platform for selling computer hardware and accessories. It includes product browsing, cart management, checkout functionality, and an admin system for product and order management.',
     tags: ['React.js', 'Node.js', 'MySQL'],
-    href: '#',
-    live: '#',
+    href: 'https://pc-corner-user.vercel.app',
+    live: 'https://pc-corner-user.vercel.app',
     isPrivate: true,
     year: '2025',
     colorFrom: 'from-tech-cyan/40',
@@ -175,7 +175,7 @@ export default function Projects() {
                       </a>
                     )}
                   </div>
-                  
+
                   {proj.isPrivate && (
                     <div className="flex items-start gap-3 text-sm font-medium text-tech-muted bg-tech-bg/50 border border-tech-violet/20 p-4 rounded-xl shadow-inner lg:w-11/12 xl:w-5/6 hover:border-tech-cyan/30 transition-colors duration-300">
                       <div className="mt-0.5 text-tech-cyan shrink-0">

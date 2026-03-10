@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className={`max-w-7xl mx-auto px-6`}>
         <nav className={`flex items-center justify-between transition-all duration-500 ${isScrolled ? 'bg-tech-card/80 backdrop-blur-2xl border border-tech-violet/20 px-8 py-4 rounded-full shadow-[0_10px_40px_rgba(0,0,0,0.3)]' : ''}`}>
           <a href="#" className="text-2xl font-black text-tech-text tracking-tighter group flex items-center gap-2">
-            <span className="text-tech-cyan group-hover:rotate-12 transition-transform duration-500 text-3xl">✦</span>
+            <span className="text-tech-cyan group-hover:rotate-12 transition-transform duration-500 text-3xl"></span>
             NISHFAN<span className="text-tech-cyan">.</span>
           </a>
 
